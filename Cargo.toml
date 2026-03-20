@@ -1,0 +1,15 @@
+[package]
+name = "mobius-integer"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jay Carpenter"]
+description = "A dual-strand integer: machine i64 (fast, wraps) + exact BigInt (never overflows). The Ariane 5 would have landed."
+license = "MIT"
+repository = "https://github.com/JustNothingJay/mobius-integer"
+readme = "README.md"
+keywords = ["integer", "overflow", "safety", "bigint", "arithmetic"]
+categories = ["mathematics", "algorithms"]
+
+[dependencies]
+num-bigint = "0.4"
+num-traits = "0.2"
