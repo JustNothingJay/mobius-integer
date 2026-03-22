@@ -1,5 +1,7 @@
 # MöbiusInteger
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19154835.svg)](https://doi.org/10.5281/zenodo.19154835)
+
 **Every systems language gets this wrong:**
 
 ```
