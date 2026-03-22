@@ -1,0 +1,33 @@
+{
+  "title": "mobius-integer: Dual-strand integer — machine i64 + exact BigInt. The Ariane 5 would have landed.",
+  "description": "A dual-strand integer type that carries both machine i64 (fast, wrapping) and exact BigInt (never overflows) simultaneously. Catches the class of integer overflow bugs that destroyed the Ariane 5 rocket ($370M), broke YouTube's view counter, and triggered Boeing 787 emergency reboots.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Carpenter, Jay",
+      "orcid": "0009-0000-0448-7997"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "integer overflow",
+    "Ariane 5",
+    "dual-strand",
+    "BigInt",
+    "strand-native",
+    "Möbius family",
+    "safety-critical"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.19157585",
+      "relation": "isPartOf",
+      "resource_type": "software",
+      "scheme": "doi"
+    }
+  ],
+  "version": "0.1.0",
+  "language": "eng",
+  "notes": "Part of the Möbius family — strand-native types that eliminate computational redundancy caused by representational imprecision."
+}
