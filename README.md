@@ -108,6 +108,8 @@ mobius-integer = "0.1"
 ## Part of the Möbius family
 
 - **[mobius-number](https://github.com/JustNothingJay/mobius-number)** — fixes IEEE 754 floating point (`0.1 + 0.2 = 0.3`)
+- **[mobius-constant](https://github.com/JustNothingJay/mobius-constant)** — fixes irrational identity (`sqrt(2)**2 = 2`)
+- **[mobius-units](https://github.com/JustNothingJay/mobius-units)** — derives fundamental constants from the eigenvalue tower
 - **mobius-integer** — fixes integer overflow (this crate)
 
 Same pattern. Same anatomy. Same fix. Different domain.
